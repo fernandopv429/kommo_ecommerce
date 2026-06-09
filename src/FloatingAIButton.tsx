@@ -13,7 +13,7 @@ export function FloatingAIButton() {
   const location = useLocation();
   const [isOpen, setIsOpen] = useState(false);
   const [messages, setMessages] = useState<Message[]>([
-    { id: 'initial', sender: 'bot', text: 'Olá! Muito obrigado pelo interesse. Devido às diretrizes da plataforma, não solicitamos nem fornecemos meios de contato por este canal.\n\nPara começarmos, qual é o nicho da sua empresa (ex: Clínica, Marketplace ou outros)?' }
+    { id: 'initial', sender: 'bot', text: 'Olá! Muito obrigado pelo interesse. Por razões de privacidade e política da nossa empresa, não informamos números de telefone por aqui, apenas recolhemos os dados e um humano do suporte entrará em contato.\n\nPara começarmos, qual o nicho da sua empresa (ex: Clínica, Marketplace)?' }
   ]);
   const [inputValue, setInputValue] = useState('');
   const [isLoading, setIsLoading] = useState(false);

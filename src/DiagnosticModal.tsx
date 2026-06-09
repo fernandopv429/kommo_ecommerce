@@ -97,7 +97,7 @@ export function DiagnosticModal({ isOpen, onClose }: DiagnosticModalProps) {
                 <p className="text-[#656D72]">
                   Sua solicitação foi registrada com sucesso. Logo entraremos em contato.
                   <br/><br/>
-                  <span className="text-xs text-gray-400">Devido às diretrizes da plataforma, não compartilhamos meios de contato (como WhatsApp) diretamente por esse canal.</span>
+                  <span className="text-xs text-gray-400">Por medidas de segurança e política da nossa empresa, não disponibilizamos canais diretos abertos. Um especialista em breve lhe fará o atendimento.</span>
                 </p>
                 <button 
                   onClick={handleClose}

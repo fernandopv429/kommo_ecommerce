@@ -82,7 +82,7 @@ export function ContactView() {
                 Obrigado pelo seu interesse. Nossa equipe recebeu sua solicitação.
               </p>
               <p className="text-sm text-gray-400 mt-4 max-w-sm mx-auto">
-                Nota: Devido às diretrizes da plataforma, não compartilhamos nossos meios de contato (como WhatsApp) diretamente por esse canal. Nós entraremos em contato com você.
+                Nota: Por medidas de segurança e política da nossa empresa, não publicamos nossos canais de atendimento (como WhatsApp) de forma aberta. Nós entraremos em contato diretamente com você.
               </p>
               <button
                 onClick={() => setIsSuccess(false)}
@@ -154,7 +154,7 @@ export function ContactView() {
                   {!isSubmitting && <Send size={20} />}
                 </button>
                 <p className="text-xs text-center text-gray-400 mt-2">
-                  Devido às diretrizes da plataforma, não compartilhamos meios de contato (como WhatsApp) diretamente por este canal. Por favor, preencha o formulário para podermos lhe contatar.
+                  Por medidas de segurança e política da Nexus, não disponibilizamos links diretos de WhatsApp e contato aqui. Por favor, preencha o formulário e um especialista da nossa equipe lhe enviará uma mensagem.
                 </p>
               </div>
             </form>
