@@ -13,7 +13,7 @@ export function FloatingAIButton() {
   const location = useLocation();
   const [isOpen, setIsOpen] = useState(false);
   const [messages, setMessages] = useState<Message[]>([
-    { id: 'initial', sender: 'bot', text: 'Olá! Muito obrigado pelo interesse. Por razões de privacidade e política da nossa empresa, não informamos números de telefone por aqui, apenas recolhemos os dados e um humano do suporte entrará em contato.\n\nPara começarmos, qual o nicho da sua empresa (ex: Clínica, Marketplace)?' }
+    { id: 'initial', sender: 'bot', text: 'Olá! Muito obrigado pelo interesse. Devido às regras da Workana, não disponibilizamos ou coletamos nenhum contato fora da plataforma oficial que é a Kommo.\n\nPara começarmos, qual o nicho da sua empresa (ex: Clínica, Marketplace)?' }
   ]);
   const [inputValue, setInputValue] = useState('');
   const [isLoading, setIsLoading] = useState(false);
